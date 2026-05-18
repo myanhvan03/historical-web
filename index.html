@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My History Portfolio</title>
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body { 
+      font-family: Georgia, serif; 
+      background: url('https://www.transparenttextures.com/patterns/aged-paper.png'); 
+      color: #3e2f1c; margin: 0; 
+    }
+    header { background-color: #d9c7a3; padding: 20px; text-align: center; }
+    nav a { margin: 0 15px; text-decoration: none; color: #3e2f1c; }
+    section { padding: 20px; max-width: 800px; margin: auto; }
+    h2 { border-bottom: 2px solid #d9c7a3; padding-bottom: 5px; }
+    article { margin-bottom: 20px; }
+    article h3 { margin: 0; }
+    article p { margin: 5px 0; }
+    form { display: flex; flex-direction: column; }
+    form input, form textarea { margin-bottom: 10px; padding: 10px; border: 1px solid #d9c7a3; }
+    form button { background-color: #3e2f1c; color: #fdf6e3; padding: 10px; border: none; cursor: pointer; }
+    footer { background-color: #d9c7a3; text-align: center; padding: 10px; margin-top: 20px; }
+    .icon { margin-right: 8px; color: #3e2f1c; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><i class="fa-solid fa-feather icon"></i> My History Research</h1>
+    <nav>
+      <a href="#home"><i class="fa-solid fa-house icon"></i>Home</a>
+      <a href="#blog"><i class="fa-solid fa-scroll icon"></i>Blog</a>
+      <a href="#contact"><i class="fa-solid fa-envelope icon"></i>Contact</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2><i class="fa-solid fa-landmark icon"></i>Welcome</h2>
+    <p>Exploring the past, one story at a time. This site shares my research, reflections, and discoveries in history.</p>
+  </section>
+
+  <section id="blog">
+    <h2><i class="fa-solid fa-book-open icon"></i>Blog</h2>
+    <article>
+      <h3>The Silk Road: A Cultural Bridge</h3>
+      <p><em>May 18, 2026</em></p>
+      <p>The Silk Road was more than a trade route — it was a channel for ideas, religions, and cultures that shaped civilizations.</p>
+    </article>
+    <article>
+      <h3>Ancient Libraries and Knowledge</h3>
+      <p><em>May 10, 2026</em></p>
+      <p>From Alexandria to Baghdad, libraries preserved and transmitted wisdom across centuries, influencing the course of history.</p>
+    </article>
+  </section>
+
+  <section id="contact">
+    <h2><i class="fa-solid fa-pen-nib icon"></i>Contact</h2>
+    <form>
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit"><i class="fa-solid fa-paper-plane"></i> Send</button>
+    </form>
+    <p>Or email me directly at: <a href="mailto:yourname@example.com">yourname@example.com</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 My History Portfolio</p>
+  </footer>
+</body>
+</html>
+
